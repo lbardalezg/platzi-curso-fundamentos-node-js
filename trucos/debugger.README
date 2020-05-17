@@ -1,0 +1,18 @@
+Para hacer debugging:
+En vez de llamar el script usando:
+node ruta/de/script.js
+Utilizar
+node --inspect ruta/de/script.js
+
+Una vez hecho esto, se abre un puerto tipo websocket
+Revisar: https://nodejs.org/en/docs/inspecto
+
+En Google Chrome, se abre el inpect en la ruta:
+chrome://inspect
+Aparecerá una lista con todos los programas
+que tienen el puerto de inspect abierto
+
+Al dar clic en inspect, saldrá un inspector
+Este inspector tiene diferentes opciones, pero
+básicamente sirve para hacer seguimiento del
+código y memoria del programa.
