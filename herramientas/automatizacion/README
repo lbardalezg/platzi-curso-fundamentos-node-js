@@ -1,0 +1,2 @@
+Instalar previamente gulp y gulp-server-livereload
+npm install gulp gulp-server-livereload

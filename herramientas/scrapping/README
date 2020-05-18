@@ -1,0 +1,4 @@
+Antes de todo, instalar puppeteer
+npm install puppeteer
+Este módulo sirve para interactuar con páginas web
+y permite hacer web scrapping.
